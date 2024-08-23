@@ -19,6 +19,9 @@
 		10B175EB2C7652BB00E1C2BF /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B175EA2C7652BB00E1C2BF /* Palette.swift */; };
 		10B175ED2C7653E500E1C2BF /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B175EC2C7653E500E1C2BF /* PaletteStore.swift */; };
 		10B175EF2C7656D300E1C2BF /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B175EE2C7656D300E1C2BF /* PaletteChooser.swift */; };
+		10B175F12C78C62A00E1C2BF /* PaletteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B175F02C78C62A00E1C2BF /* PaletteEditor.swift */; };
+		10B175F32C78DDB200E1C2BF /* PaletteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B175F22C78DDB200E1C2BF /* PaletteList.swift */; };
+		10B175F52C78E84500E1C2BF /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B175F42C78E84500E1C2BF /* PaletteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		10B175EA2C7652BB00E1C2BF /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		10B175EC2C7653E500E1C2BF /* PaletteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteStore.swift; sourceTree = "<group>"; };
 		10B175EE2C7656D300E1C2BF /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
+		10B175F02C78C62A00E1C2BF /* PaletteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteEditor.swift; sourceTree = "<group>"; };
+		10B175F22C78DDB200E1C2BF /* PaletteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteList.swift; sourceTree = "<group>"; };
+		10B175F42C78E84500E1C2BF /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 				10B175EA2C7652BB00E1C2BF /* Palette.swift */,
 				10B175EC2C7653E500E1C2BF /* PaletteStore.swift */,
 				10B175EE2C7656D300E1C2BF /* PaletteChooser.swift */,
+				10B175F22C78DDB200E1C2BF /* PaletteList.swift */,
+				10B175F42C78E84500E1C2BF /* PaletteManager.swift */,
+				10B175F02C78C62A00E1C2BF /* PaletteEditor.swift */,
 				10B175D42C752BF600E1C2BF /* ContentView.swift */,
 				10B175E02C752C9E00E1C2BF /* EmojiArt.swift */,
 				10B175E22C752E5100E1C2BF /* EmojiArtDocument.swift */,
@@ -161,12 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B175F52C78E84500E1C2BF /* PaletteManager.swift in Sources */,
 				10B175E92C75457300E1C2BF /* Sturldata.swift in Sources */,
 				10B175E52C75302400E1C2BF /* EmojiArtDocumentView.swift in Sources */,
 				10B175E72C75330E00E1C2BF /* Extensions.swift in Sources */,
+				10B175F32C78DDB200E1C2BF /* PaletteList.swift in Sources */,
 				10B175E12C752C9E00E1C2BF /* EmojiArt.swift in Sources */,
 				10B175ED2C7653E500E1C2BF /* PaletteStore.swift in Sources */,
 				10B175D52C752BF600E1C2BF /* ContentView.swift in Sources */,
+				10B175F12C78C62A00E1C2BF /* PaletteEditor.swift in Sources */,
 				10B175D32C752BF600E1C2BF /* Emoji_ArtApp.swift in Sources */,
 				10B175E32C752E5100E1C2BF /* EmojiArtDocument.swift in Sources */,
 				10B175EB2C7652BB00E1C2BF /* Palette.swift in Sources */,
